@@ -1,0 +1,88 @@
+.sign-up {
+  background: white;
+  background-image: url("./../../assest/login/background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+
+  .h-36 {
+    height: 36px;
+  }
+  .custom-tab {
+    border: 2px solid #2294e6;
+    width: 44px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mt-35 {
+    margin-top: 35px;
+  }
+  .logo {
+    display: grid;
+    justify-content: center;
+  }
+  .css-h0c0ys-MuiPaper-root {
+    box-shadow: unset;
+  }
+  .enable-sample-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    min-height: 100vh;
+    box-shadow: none;
+    img {
+      width: 50%;
+      height: auto;
+    }
+  }
+  .MuiSvgIcon-root {
+    font-size: 1.5rem;
+    color: #b6b6b7;
+  }
+
+  .signup-box {
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    .MuiInputBase-input {
+      padding-left: 12px !important;
+      padding: 10.5px 14px;
+    }
+    .MuiInputBase-root {
+      border-radius: 30px !important;
+    }
+    .MuiTypography-root {
+      font-size: 1.125rem;
+      color: #001b34;
+    }
+    .submit-btn {
+      border-radius: 30px;
+      width: 30%;
+      font-size: 1.125rem;
+      font-weight: 500;
+    }
+    .g-sign-in {
+      img {
+        width: 40px;
+        height: 26px;
+      }
+      border-radius: 30px;
+      background: white;
+      font-size: 1.125rem;
+      font-weight: 500;
+      color: #131314;
+      box-shadow: none;
+      border: 1px solid #dddddd;
+    }
+    span {
+      color: #2294e6;
+    }
+  }
+  .text-field {
+    border-radius: 10px;
+  }
+}

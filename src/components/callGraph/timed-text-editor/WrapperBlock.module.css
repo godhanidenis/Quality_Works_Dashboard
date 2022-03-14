@@ -1,0 +1,104 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
+TODO: only working in Chrome, not working in Firefox, and Safari - OSX
+if selecting text, not showing selection
+Commented out because it means cannot select speakers and timecode anymore
+which is the intended default behavior but needs to come with export
+functionality to export as plain text, word etc.. otherwise user won't be able
+to get text out of component with timecodes and speaker names in the interim */
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Desktop size */
+@media (min-width: 768px) {
+  .markers {
+    display: flex;
+    flex-direction: column;
+    min-width: 70px;
+    /*display: grid;*/
+    /*grid-template-columns: 2fr 1fr;*/
+  }
+
+  .WrapperBlock {
+    overflow: unset;
+    grid-template-columns: unset;
+    grid-column-gap: unset;
+    justify-content: unset;
+    align-content: unset;
+    display: flex;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: unset !important;
+  }
+
+  .speaker {
+    font-weight: bold;
+    font-size: 12px;
+    color: #212121;
+  }
+
+  .text {
+    margin-left: 25px;
+    font-size: 0.825rem;
+  }
+}
+
+.time {
+  font-weight: lighter;
+  cursor: pointer;
+  justify-self: start;
+  font-size: 0.825rem;
+}
+
+.time:hover {
+  text-decoration: underline;
+
+  /* color: blue; */
+}
+
+.speakerEditable {
+  cursor: pointer;
+}
+
+.speakerNotEditable {
+  cursor: no-drop;
+}
+
+.EditLabel svg {
+  display: none;
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  .markers {
+    width: 100%;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+  }
+
+  .WrapperBlock {
+    width: 100%;
+    margin-bottom: 1em;
+    line-height: 1.2em;
+    overflow: hidden;
+  }
+
+  .speaker {
+    font-weight: bold;
+    font-size: 14px;
+    color: #212121;
+  }
+
+  .text {
+    width: 100%;
+    font-size: 1em;
+    float: left;
+
+    /* clear: right; */
+  }
+}

@@ -1,0 +1,160 @@
+.dashboard {
+  .mh-36 {
+    max-height: 36px;
+  }
+  .custom-graph {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 28px;
+  }
+  .reporting-btn {
+    font-size: 12px !important;
+    color: #ffffff !important;
+    letter-spacing: 0.02em;
+
+    background: #0171c3 !important;
+    padding: 6px 12px !important;
+  }
+  .header-content {
+    padding: 20px 56px;
+    background: white;
+  }
+  .mh-64 {
+    min-height: 64px;
+  }
+  .statistic {
+    .MuiDivider-root::after {
+      width: 0%;
+    }
+  }
+  .dashboard-body {
+    padding-top: 64px;
+    padding: 34px 22px 0px;
+    min-height: 91vh;
+    background: #f5f8fa;
+    padding-bottom: 25px;
+  }
+  .css-h0c0ys-MuiPaper-root {
+    box-shadow: unset !important;
+  }
+  .setting {
+    margin-top: 56px;
+  }
+  .graph {
+    margin-top: 24px;
+    .graph-content {
+      margin-top: 12px;
+    }
+    .MuiDivider-root::after {
+      width: 0%;
+    }
+    .metric-table-head {
+      .MuiTableCell-root {
+        background-color: #f5f8fa;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 6px 12px;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+    }
+    .metric-table-body {
+      height: 35px;
+      outline: none;
+      /* outline: 1px solid #f2f3f4; */
+      box-sizing: border-box;
+      border-radius: 10px;
+      .MuiTableCell-root {
+        padding: 4px;
+      }
+      .justify-content-centre {
+        justify-content: center;
+      }
+    }
+  }
+  .table {
+    .player-icon {
+      background: #0171c3;
+      width: 24px;
+      border-radius: 15px;
+      padding: 2px;
+      height: 24px;
+      cursor: pointer;
+    }
+    .justify-content-centre {
+      justify-content: center;
+    }
+    .green-circle {
+      border: 1px solid green;
+      border-radius: 12px;
+      padding: 0px 4px;
+    }
+    .red-circle {
+      border: 1px solid red;
+      border-radius: 12px;
+      padding: 0px 4px;
+    }
+    .MuiDataGrid-virtualScrollerContent {
+      height: 176px !important;
+      overflow: auto;
+    }
+    .metric-table-head {
+      .MuiTableCell-root {
+        font-weight: 700;
+        background-color: #f5f8fa;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 6px 12px;
+        white-space: nowrap;
+      }
+    }
+    .h-40{
+      height: 40px !important;
+    }
+    .metric-table-body {
+      height: 35px;
+      outline: none;
+      /* outline: 1px solid #f2f3f4; */
+      box-sizing: border-box;
+      border-radius: 10px;
+      .MuiTableCell-root {
+        padding: 4px;
+      }
+    }
+  }
+  .datatable {
+    border: none !important;
+    font-size: 0.75rem;
+    .MuiDataGrid-columnHeaders {
+      .MuiDataGrid-columnHeaderTitle {
+        font-weight: normal;
+      }
+      border: none;
+      border-radius: 5px;
+      color: #667685;
+      background: #f5f8fa;
+    }
+    .MuiDataGrid-cell {
+      border: none !important;
+      font-weight: 600;
+    }
+  }
+  .MuiDataGrid-footerContainer {
+    min-height: 38px !important;
+  }
+  .MuiTablePagination-toolbar {
+    min-height: 38px !important;
+  }
+  .billing-index {
+    // height: 300px;
+  }
+  .sidebar-datepicker {
+    label {
+      font-size: 14px;
+    }
+    input {
+      padding: 6.5px 14px !important;
+      max-width: 125px;
+    }
+  }
+}

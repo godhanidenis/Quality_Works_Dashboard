@@ -1,0 +1,348 @@
+.select-bar {
+  background: #fff;
+  padding: 15px;
+  height: 92vh;
+  overflow-y: scroll;
+  margin: -15px;
+  border-radius: 0px 0px 15px;
+  .css-17vdz66 {
+    display: block;
+  }
+
+  .MuiFilledInput-root {
+    font-family: helveticaneue;
+    font-size: 0.825rem;
+    background: #f5f8fa;
+    color: #001b34;
+    border-radius: 10px;
+    padding-left: 5px;
+    .MuiSvgIcon-root {
+      font-size: 1.25rem;
+    }
+    .MuiInputAdornment-root {
+      margin-top: 5px !important;
+    }
+  }
+  .MuiTextField-root {
+    margin-top: 10px;
+    width: 100%;
+    .MuiFilledInput-input {
+      padding-top: 10px;
+      .MuiInputAdornment-root {
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+.score-body {
+  position: relative;
+}
+.filter-area {
+  overflow-y: scroll;
+  background: #fff;
+  margin: 25px -12px;
+  border-radius: 0px 15px 0px 0px;
+  padding: 11px;
+}
+.drawer {
+  .overflow-content {
+    height: 182px;
+    overflow-y: scroll;
+  }
+  .sidebar-datepicker {
+    label {
+      font-size: 14px;
+    }
+    input {
+      padding: 6.5px 14px !important;
+    }
+  }
+  .MuiDrawer-paper {
+    margin-top: 72px;
+    z-index: 2;
+    padding: 18px 12px;
+    background: #ffffff;
+    box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .MuiDrawer-paper::-webkit-scrollbar {
+    width: 2px;
+    display: block;
+    overflow: auto;
+    height: 4px;
+    color: red;
+  }
+
+  .MuiDrawer-paper::-webkit-scrollbar-thumb:vertical {
+    background-color: #aaa;
+  }
+
+  .drawer-body {
+    .custom-white-bg {
+      box-shadow: unset;
+      .MuiPaper-rounded {
+        box-shadow: unset;
+      }
+    }
+
+    .custom-expand-tab {
+      .text-dark {
+        .MuiTypography-body1 {
+          font-family: helveticaneue;
+          font-style: "Roman";
+          font-size: "14px";
+          letter-spacing: 2%;
+          // font-weight: 600;
+          // color: #262626;
+          // font-size: 14px;
+        }
+      }
+
+      padding-left: unset;
+
+      // .radio-icon {
+      //   min-width: unset !important;
+      // }
+    }
+
+    .slider-main {
+      // padding: 28px 8px 32px 8px;
+
+      .timer-box {
+        background: #ffffff;
+        padding: 4px 10px;
+        border: 1px solid #d9d9d9;
+        border-radius: 4px;
+      }
+    }
+
+    .radio-button-male {
+      .css-ahj2mt-MuiTypography-root {
+        font-family: helveticaneue !important;
+      }
+    }
+
+    .radio-button-female {
+      .css-ahj2mt-MuiTypography-root {
+        font-family: helveticaneue !important;
+      }
+      padding: 0px 0px 36px 20px;
+
+      .MuiFormControlLabel-label {
+        padding-left: 8px;
+      }
+    }
+
+    .select-input {
+      background: #ffffff;
+      height: 36px !important;
+
+      svg {
+        color: black;
+      }
+    }
+  }
+
+  .MuiList-padding {
+    padding: unset;
+  }
+}
+.css-ahj2mt-MuiTypography-root {
+}
+.notification-badge {
+  .MuiBadge-badge {
+    top: 8px !important;
+    background: red;
+  }
+}
+.header-icon {
+  button:hover {
+    background-color: none;
+  }
+
+  img {
+    border-radius: 30px;
+    padding: 8px;
+    background: #f5f8fa;
+  }
+}
+.header-menuIcon {
+  button:hover {
+    background-color: none;
+  }
+
+  img {
+    border: 1px solid #f2f3f4;
+    border-radius: 10px;
+    padding: 12px;
+  }
+}
+.logo-icon {
+  padding: 12px 36px;
+  width: 100%;
+  min-height: 64px;
+}
+
+.header-profile {
+  button#long-button:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  button#demo-customized-button {
+    padding: 3px 14px;
+    border: 1px solid #f2f3f4;
+    margin: 5px;
+  }
+  display: flex;
+  button {
+    font-family: helveticaneue;
+    background: #fff;
+    color: #000000;
+  }
+}
+.MuiSvgIcon-root {
+  font-size: 1rem;
+  color: #667685;
+}
+.header-tabs {
+  padding-right: 16px;
+  padding-left: 32px;
+  .MuiSvgIcon-root {
+    font-size: 1rem;
+  }
+  button {
+    min-height: 55px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    font-family: helveticaneue;
+    line-height: 1.625rem;
+    letter-spacing: 0.02em;
+    margin-bottom: 6px;
+    color: #001b34;
+    // .MuiSvgIcon-root {
+    //   font-size: 1.25rem;
+    // }
+  }
+  button.Mui-selected {
+    background: #f5f8fa;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0;
+    .MuiSvgIcon-root {
+      color: #0171c3;
+    }
+  }
+}
+
+.MuiAvatar-root {
+  border-radius: 25%;
+}
+.MuiContainer-root {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+}
+.profile-name {
+  font-weight: "bold";
+}
+.profile-email {
+  color: "gray";
+}
+.nav-bar {
+  box-shadow: none;
+  background-color: #fff;
+}
+.navbar-logo {
+  width: 13.5vw;
+  min-width: 225px;
+  background: #000000;
+  height: 64px;
+}
+.header-tabs-evaluation {
+  padding-right: 16px;
+
+  button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    font-family: helveticaneue;
+    line-height: 1.625rem;
+    letter-spacing: 0.02em;
+    margin-bottom: -2px;
+    color: #001b34;
+    .MuiSvgIcon-root {
+      font-size: 1.25rem;
+    }
+  }
+  button.Mui-selected {
+    .MuiSvgIcon-root {
+      color: #0171c3;
+    }
+  }
+}
+@media (min-width: 1536px) {
+  .css-j9j14j-MuiGrid-root {
+    max-width: 86.916667% !important;
+  }
+}
+@media (max-width: 1200px) {
+  .select-bar {
+    background: #fff;
+    padding: 15px;
+    height: 100vh;
+    overflow-y: scroll;
+    margin: -15px;
+    border-radius: 0px 0px 0px;
+  }
+}
+// @media screen and (min-width: 1400px) {
+//   .navbar-logo {
+//     min-width: 199px;
+//   }
+// }
+// @media screen and (max-width: 1400px) and (min-width: 1300px) {
+//   .navbar-logo {
+//     min-width: 200px !important;
+//   }
+// }
+// @media screen and (max-width: 1350px) and (min-width: 1400px) {
+//   .navbar-logo {
+//     min-width: 195px !important;
+//   }
+// }
+// @media screen and (max-width: 1300px) and (min-width: 1200px) {
+//   .navbar-logo {
+//     min-width: 186px !important;
+//   }
+// }
+// @media (min-width: 900px) {
+//   .css-1t6c9ts {
+//     display: grid;
+//   }
+// }
+// @media (max-width: 1066px) {
+//   .logo-icon {
+//     padding: 16px 24px;
+//   }
+// }
+// @media (max-width: 1000px) {
+//   .logo-icon {
+//     padding: 16px 18px;
+//   }
+// }
+// @media (max-width: 950px) {
+//   .logo-icon {
+//     padding: 16px 8px;
+//   }
+// }
+
+// @media (min-width: 600px) {
+//   .nav-bar-container {
+//     padding-left: 0px;
+//     padding-right: 0px;
+//   }
+// }

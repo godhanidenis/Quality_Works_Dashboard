@@ -1,0 +1,34 @@
+.reporting {
+  padding: 50px 32px 32px 32px;
+
+  .sidebar {
+    margin: -43px -22px;
+    .navbar-logo {
+      min-width: 245px !important;
+      background: #000000;
+      height: 64px;
+    }
+  }
+}
+
+.add-column-header {
+  background: rgba(0, 0, 0, 0.06);
+  div {
+    white-space: nowrap;
+  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 24px;
+  .reporting-btn {
+
+    font-size: 14px !important;
+    color: #262626 !important;
+    border-radius: 4px;
+    background: transparent !important;
+  }
+}
+
+.add-column-body {
+  padding: 24px 0px 57px 34px;
+}

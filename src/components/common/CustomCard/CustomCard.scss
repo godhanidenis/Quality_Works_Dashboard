@@ -1,0 +1,142 @@
+.card {
+  padding: 12px 6px 12px 16px;
+  .w-45 {
+    width: 45px;
+  }
+  
+  .MuiSvgIcon-root {
+    font-size: 3rem;
+    color: #667685;
+    padding-top: 8px;
+}
+  .custome-line {
+    height: 64px;
+    width: 3px;
+    background: #0171c3;
+    border-radius: 2px;
+  }
+  .card-content {
+    justify-content: center;
+    padding-left: 15px;
+    display: flex;
+    flex-flow: column;
+  }
+  .processing-card {
+    box-shadow: none !important;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: unset;
+
+    &.br-4 {
+      border-radius: 4px;
+    }
+    .custom-card-content {
+      box-shadow: unset !important;
+
+      &.process0 {
+        box-shadow: inset 4px 0px 0px #0070c0 !important;
+        padding: 24px 32px;
+      }
+
+      &.process1 {
+        box-shadow: inset 4px 0px 0px #3bd999 !important;
+        padding: 24px 32px;
+      }
+
+      &.process2 {
+        box-shadow: inset 4px 0px 0px #fab143 !important;
+        padding: 24px 32px;
+      }
+
+      &.process3 {
+        box-shadow: inset 4px 0px 0px #de3c3c !important;
+        padding: 24px 32px;
+      }
+
+      &.setting-card {
+        padding: 24px 32px;
+      }
+
+      &.dashboard-setting-card {
+        border-radius: 4px;
+        padding: 24px 32px;
+      }
+
+      .custom-card-box {
+        display: flex;
+        align-items: flex-start;
+      }
+    }
+  }
+}
+.dashboard-card {
+  padding: 0px;
+  height: 110px;
+  .w-45 {
+    width: 45px;
+  }
+  .w-s-nowrap{
+    white-space: nowrap;
+  }
+  
+  .MuiSvgIcon-root {
+    font-size: 2rem;
+    color: #667685;
+}
+  .custome-line {
+    height: 64px;
+    width: 3px;
+    background: #0171c3;
+    border-radius: 2px;
+  }
+  .card-content {
+    justify-content: flex-start;
+    display: flex;
+    flex-flow: column;
+  }
+  .processing-card {
+    box-shadow: none !important;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: unset;
+
+    &.br-4 {
+      border-radius: 4px;
+    }
+    .custom-card-content {
+      box-shadow: unset !important;
+
+      &.process0 {
+        box-shadow: inset 4px 0px 0px #0070c0 !important;
+        padding: 24px 32px;
+      }
+
+      &.process1 {
+        box-shadow: inset 4px 0px 0px #3bd999 !important;
+        padding: 24px 32px;
+      }
+
+      &.process2 {
+        box-shadow: inset 4px 0px 0px #fab143 !important;
+        padding: 24px 32px;
+      }
+
+      &.process3 {
+        box-shadow: inset 4px 0px 0px #de3c3c !important;
+        padding: 24px 32px;
+      }
+
+      &.setting-card {
+        padding: 24px 32px;
+      }
+
+      &.dashboard-setting-card {
+        border-radius: 4px;
+        padding: 24px 32px;
+      }
+
+      .custom-card-box {
+        display: flex;
+        align-items: flex-start;
+      }
+    }
+  }
+}
